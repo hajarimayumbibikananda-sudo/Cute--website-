@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Love 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #fff0f5;
+      color: #d6336c;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+      background: #ffb6c1;
+      border-bottom: 3px solid #ff85a1;
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin: 0;
+    }
+    .note {
+      padding: 30px 20px;
+      font-size: 1.2em;
+    }
+    .hearts {
+      font-size: 2em;
+      animation: float 3s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+      from { transform: translateY(0px); }
+      to { transform: translateY(-10px); }
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      padding: 20px;
+      background: #ffb6c1;
+      border-top: 3px solid #ff85a1;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>For My Sweetheart 💕</h1>
+    <div class="hearts">💖💖💖</div>
+  </header>
+
+  <section class="note">
+    <p>Dear [Her Name],</p>
+    <p>You are my sunshine, my laughter, and my favorite hello. This little page is just a small way to say how much you mean to me. 💞</p>
+  </section>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/150/ffb6c1/ffffff?text=Pic+1" alt="Photo 1">
+    <img src="https://via.placeholder.com/150/ff85a1/ffffff?text=Pic+2" alt="Photo 2">
+    <img src="https://via.placeholder.com/150/fc7ca5/ffffff?text=Pic+3" alt="Photo 3">
+  </section>
+
+  <footer>
+    Made with ❤️ just for you.
+  </footer>
+
+</body>
+</html>
